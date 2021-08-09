@@ -2,5 +2,3 @@ image: Ubuntu
 
 build_script:
   - ./gradlew
-
-version: "{build}"
