@@ -3,6 +3,8 @@ image: Ubuntu2004
 build_script:
   - ./gradlew build
 
+verbosity: detailed
+
 artifacts:
   - path: build/libs/*.jar
     name: AppveyorSpike
