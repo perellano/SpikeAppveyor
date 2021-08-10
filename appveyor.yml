@@ -4,7 +4,7 @@ build:
   verbosity: detailed
 
 build_script:
-  - ./gradlew build
+  - ./gradlew --info build
 
 artifacts:
   - path: build/libs/*.jar
