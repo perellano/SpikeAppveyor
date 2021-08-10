@@ -1,10 +1,10 @@
 image: Ubuntu2004
 
+build:
+  verbosity: detailed
+
 build_script:
   - ./gradlew build
-
-verbosity:
-  detailed
 
 artifacts:
   - path: build/libs/*.jar
