@@ -1,5 +1,7 @@
 image: Ubuntu2004
 
+stack: jdk 15
+
 build:
   verbosity: detailed
 
