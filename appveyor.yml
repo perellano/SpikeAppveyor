@@ -5,4 +5,4 @@ build_script:
 
 artifacts:
   - path: build/libs/*.jar
-  - name: AppveyorSpike
+    name: AppveyorSpike
