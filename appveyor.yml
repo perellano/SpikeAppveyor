@@ -1,6 +1,7 @@
 image: Ubuntu
 
 build_script:
+  - java -version
   - ./gradlew build
 
 artifacts:
