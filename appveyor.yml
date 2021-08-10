@@ -1,7 +1,7 @@
 image: Ubuntu
 
 build_script:
-  - gradle clean build
+  - ./gradlew clean wrapper build
 
 artifacts:
   - path: build/libs/*.jar
