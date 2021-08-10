@@ -1,8 +1,7 @@
 image: Ubuntu
 
 build_script:
-  - java -version
-  - ./gradlew build
+  - ./gradlew build --stacktrace
 
 artifacts:
   - path: build/libs/*.jar
