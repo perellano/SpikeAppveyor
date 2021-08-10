@@ -6,7 +6,7 @@ plugins {
 
 group = 'ch.perellano'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '16'
+sourceCompatibility = '15'
 
 repositories {
 	mavenCentral()
