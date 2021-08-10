@@ -2,3 +2,7 @@ image: Ubuntu
 
 build_script:
   - ./gradlew
+
+artifacts:
+  - path: build/libs/*.jar
+  - name: AppveyorSpike
