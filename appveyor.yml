@@ -1,8 +1,8 @@
-image: Ubuntu
+image: Ubuntu2004
 
 build_script:
-  - ./gradlew clean wrapper build
+  - ./gradlew build
 
-#artifacts:
-#  - path: build/libs/*.jar
-#    name: AppveyorSpike
+artifacts:
+  - path: build/libs/*.jar
+    name: AppveyorSpike
