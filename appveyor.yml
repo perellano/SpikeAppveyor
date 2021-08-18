@@ -2,7 +2,7 @@ image: Ubuntu2004
 
 install:
   - sh: sudo apt-get update
-  - sh: sudo apt-get install openjdk-16-jdk
+  - sh: sudo apt-get -y install openjdk-16-jdk
 
 build:
   verbosity: detailed
