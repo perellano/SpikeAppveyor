@@ -8,6 +8,9 @@ build:
   verbosity: detailed
 
 build_script:
+  - sh: java -version
+  - sh: ls /usr/lib/jvm/
+  #- sh: sudo update-alternatives --set java /usr/lib/jvm/jdk1.8.0_version/bin/java
   - ./gradlew --info build
 
 artifacts:
