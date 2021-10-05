@@ -1,22 +1,12 @@
-image: Ubuntu2004
+build_cloud: byodlinuxappveyor
+image: LinuxApu2004
 
 install:
-  - sh: sudo apt-get update
-  - sh: sudo apt-get -y install openjdk-16-jdk
 
 build:
   verbosity: detailed
 
 build_script:
-  - sh: java -version
-  - sh: ls /usr/lib/jvm/
-  - sh: sudo update-alternatives --set java /usr/lib/jvm/java-16-openjdk-amd64/bin/java
-  - sh: echo $JAVA_HOME
-  - sh: which java
-  - sh: export JAVA_HOME=/usr/lib/jvm/java-16-openjdk-amd64
-  - sh: echo $JAVA_HOME
-  - sh: which java
-  - sh: java -version
   - ./gradlew --info build
 
 artifacts:
